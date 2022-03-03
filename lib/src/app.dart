@@ -11,8 +11,15 @@ class MyApp extends StatelessWidget {
       title: 'Soccer',
       initialRoute: 'home',
       routes: {
-        'home': (_) => HomeScreen(),
+        'home': (_) => const HomeSoccerScreen(),
+        'details': (_) => const DetailsSoccerScreen(),
       },
+      theme: ThemeData.light().copyWith(
+        appBarTheme: const AppBarTheme(
+          color: Colors.indigo,
+          elevation: 0,
+        ),
+      ),
     );
   }
 }
