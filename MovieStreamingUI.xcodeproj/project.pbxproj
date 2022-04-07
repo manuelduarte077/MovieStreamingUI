@@ -11,6 +11,11 @@
 		64D7361B27FE5BBF00A15D27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7361A27FE5BBF00A15D27 /* ContentView.swift */; };
 		64D7361D27FE5BC000A15D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D7361C27FE5BC000A15D27 /* Assets.xcassets */; };
 		64D7362027FE5BC000A15D27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D7361F27FE5BC000A15D27 /* Preview Assets.xcassets */; };
+		64D7364927FEADAC00A15D27 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7364827FEADAC00A15D27 /* Movie.swift */; };
+		64D7364B27FEAE2900A15D27 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7364A27FEAE2900A15D27 /* SnapCarousel.swift */; };
+		64D7364D27FEAE3500A15D27 /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7364C27FEAE3500A15D27 /* OffsetModifier.swift */; };
+		64D7364F27FEAE4400A15D27 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7364E27FEAE4400A15D27 /* Home.swift */; };
+		64D7365127FEAE4F00A15D27 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7365027FEAE4F00A15D27 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		64D7361F27FE5BC000A15D27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64D7362527FE5BC000A15D27 /* MovieStreamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D7362F27FE5BC000A15D27 /* MovieStreamingUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieStreamingUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D7364827FEADAC00A15D27 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		64D7364A27FEAE2900A15D27 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		64D7364C27FEAE3500A15D27 /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
+		64D7364E27FEAE4400A15D27 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		64D7365027FEAE4F00A15D27 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,8 @@
 		64D7361727FE5BBF00A15D27 /* MovieStreamingUI */ = {
 			isa = PBXGroup;
 			children = (
+				64D7364727FEAD9500A15D27 /* View */,
+				64D7364627FEAD8A00A15D27 /* Model */,
 				64D7361827FE5BBF00A15D27 /* MovieStreamingUIApp.swift */,
 				64D7361A27FE5BBF00A15D27 /* ContentView.swift */,
 				64D7361C27FE5BC000A15D27 /* Assets.xcassets */,
@@ -100,6 +112,25 @@
 				64D7361F27FE5BC000A15D27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64D7364627FEAD8A00A15D27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64D7364827FEADAC00A15D27 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64D7364727FEAD9500A15D27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64D7364A27FEAE2900A15D27 /* SnapCarousel.swift */,
+				64D7364C27FEAE3500A15D27 /* OffsetModifier.swift */,
+				64D7364E27FEAE4400A15D27 /* Home.swift */,
+				64D7365027FEAE4F00A15D27 /* DetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D7361B27FE5BBF00A15D27 /* ContentView.swift in Sources */,
+				64D7364B27FEAE2900A15D27 /* SnapCarousel.swift in Sources */,
+				64D7364D27FEAE3500A15D27 /* OffsetModifier.swift in Sources */,
+				64D7365127FEAE4F00A15D27 /* DetailView.swift in Sources */,
 				64D7361927FE5BBF00A15D27 /* MovieStreamingUIApp.swift in Sources */,
+				64D7364F27FEAE4400A15D27 /* Home.swift in Sources */,
+				64D7364927FEADAC00A15D27 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
