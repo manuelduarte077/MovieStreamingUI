@@ -1,4 +1,4 @@
 # MovieStreamingUI
 
-| ![Video](demo/1.png) | ![ScreenShots](demo/2.png) | ![ScreenShots](demo/3.png) |
+| ![Video](demo/1-min.png) | ![ScreenShots](demo/2-min.png) | ![ScreenShots](demo/3-min.png) |
 | -------------------- | -------------------------- | -------------------------- |
