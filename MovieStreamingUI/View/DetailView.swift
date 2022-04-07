@@ -43,6 +43,7 @@ struct DetailView: View {
                     .frame(width: currentCardSieze.width, height: currentCardSieze.height)
                     .cornerRadius(15)
                     .matchedGeometryEffect(id: movie.id, in: animation)
+               
                 // MARK: - MOVIE DETAILS
                 VStack(spacing: 15) {
                     
